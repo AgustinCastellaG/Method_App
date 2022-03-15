@@ -1,0 +1,32 @@
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: #121619;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.socialMedia {
+  position: relative;
+  margin-top: 10px;
+
+  svg {
+    color: white;
+    margin: 10px;
+    font-size: 35px;
+    cursor: pointer;
+    
+    &.right {
+      margin-right: 30px;
+    }
+  }
+}
+
+.footer p {
+  position: absolute;
+  bottom: 0;
+  align-self: center;
+  color: white;
+  font-size: 16px;
+}

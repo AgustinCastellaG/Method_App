@@ -1,0 +1,12 @@
+.navbar {
+  position: fixed;
+  width: 100vw;
+  background-image: linear-gradient(to right, red , yellow);
+  display: flex;
+  padding: 10px 20px 30px 20px;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+
+  .logo{
+    width: 300px;
+  }
+}
