@@ -1,6 +1,6 @@
 import React from 'react'
-import './CustomButton.scss'
 import Button from '@mui/material/Button'
+import './CustomButton.scss'
 
 const CustomButton = ({ variant, children, onClick }) => {
   return (
