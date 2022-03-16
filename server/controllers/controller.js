@@ -126,7 +126,7 @@ const processData = asyncHandler(async (req, res) => {
         }
       })
       Promise.all(pendingData).then(function (processedData) {
-        res.status(200).json({ message: 'Process Data', data: processedData })
+        res.status(200).json({ message: 'Process Data', data: processedData.filter(item => !!item) })
       })
     }
   })
