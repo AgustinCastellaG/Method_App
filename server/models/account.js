@@ -13,6 +13,7 @@ const LiabilitySchema = new mongoose.Schema({
 });
 
 const account = new mongoose.Schema({
+  batch_id: String,
   id: String,
   holder_id: String,
   status: String,

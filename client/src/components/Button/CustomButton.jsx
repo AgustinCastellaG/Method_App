@@ -2,9 +2,9 @@ import React from 'react'
 import Button from '@mui/material/Button'
 import './CustomButton.scss'
 
-const CustomButton = ({ variant, children, onClick }) => {
+const CustomButton = ({ className, variant, children, onClick, disabled }) => {
   return (
-    <Button className='button' variant={variant} onClick={onClick}>{children}</Button>
+    <Button className={`button ${className}`} variant={variant} onClick={onClick} disabled={disabled}>{children}</Button>
   )
 }
 

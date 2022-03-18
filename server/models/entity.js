@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 const entity = new mongoose.Schema({
+  batch_id: String,
   id: String,
   type: String,
   individual: {
@@ -29,7 +30,8 @@ const entity = new mongoose.Schema({
   status: String,
   metadata: String,
   created_at: String,
-  updated_at: String
+  updated_at: String,
+  dunkin_branch: String
 })
 
 module.exports = mongoose.model('Entity', entity)

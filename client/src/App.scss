@@ -5,8 +5,46 @@
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
 
+  .input-file-container {
+    display: flex;
+    flex-direction: column;
+  }
+
   .container {
+    display: flex;
+    flex-direction: column;
     margin: auto;
+
+    .report-button-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+    }
+
+    .button {
+      padding: 10px 50px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+      border-radius: 8px;
+      background-color: #FF671F;
+
+      &.pay-button {
+        width: 200px;
+        padding: 10px 100px;
+        align-self: end;
+        margin-top: 50px;
+      }
+
+      &.csv {
+        font-size: 14px;
+      }
+    
+      &:hover {
+        background-color: red;
+      }
+    }
+
   }
 }
 
@@ -14,5 +52,4 @@ body {
   padding: 0;
   margin: 0;
 }
-
 

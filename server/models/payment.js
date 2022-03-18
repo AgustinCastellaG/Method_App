@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 const payment = new mongoose.Schema({
+  batch_id: String,
   id: String,
   reversal_id: String,
   source_trace_id: String,
