@@ -1,15 +1,15 @@
 # Getting Started
 
-1- Create MongoDB database and copy string into /server/.env
-2- Run npm install for both client and server folders
-3- Run npm start for bot client and server folders
+1- Create MongoDB database and copy string into /server/.env\
+2- Run npm install for both client and server folders\
+3- Run npm start for bot client and server folders\
 
 ## /server/.env
 
-NODE_ENV=development
-PORT=3001
-MONGO_URI==
-METHOD_API_KEY=
+NODE_ENV=development\
+PORT=3001\
+MONGO_URI==\
+METHOD_API_KEY=\
 
 # Improvements
 
